@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".WebDev">
+
+    <TextView
+            android:text="@string/machine_learning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="51sp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="#FFC107"
+            android:background="#DD2C00"
+            android:id="@+id/textView"/>
+
+    <!--    Ist-->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="#ffff00"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+                android:backgroundTint="#ff0000"
+                android:id="@+id/statisticsCard"
+                android:layout_width="0sp"
+                android:layout_weight="1"
+                android:layout_margin="10sp"
+                android:layout_height="100dp">
+
+            <TextView
+                    android:text="@string/statistic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="50sp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+
+                    android:id="@+id/statisticstxt"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:backgroundTint="#ff0000"
+                android:id="@+id/algorithmCard"
+                android:layout_width="0sp"
+                android:layout_weight="1"
+                android:layout_margin="10sp"
+                android:layout_height="100dp">
+
+            <TextView
+                    android:text="@string/algorithm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="42sp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:id="@+id/algorithmtxt"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <!--  Second  -->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="#ffff00"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+                android:backgroundTint="#ff0000"
+                android:id="@+id/bigDataCard"
+                android:layout_width="0sp"
+                android:layout_weight="1"
+                android:layout_margin="10sp"
+                android:layout_height="100dp">
+
+            <TextView
+                    android:text="@string/big_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="49sp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:id="@+id/bigdatatxt"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:backgroundTint="#ff0000"
+                android:id="@+id/proglangCard"
+                android:layout_width="0sp"
+                android:layout_weight="1"
+                android:layout_margin="10sp"
+                android:layout_height="100dp">
+
+            <TextView
+                    android:text="@string/programming_languages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="27sp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:id="@+id/proglangtxt"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <!--  Third  -->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="#ffff00"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+                android:backgroundTint="#ff0000"
+                android:id="@+id/librariesCard"
+                android:layout_width="0sp"
+                android:layout_weight="1"
+                android:layout_margin="10sp"
+                android:layout_height="100dp">
+
+            <TextView
+                    android:text="@string/libraries"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="47sp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:id="@+id/libtxt"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:backgroundTint="#ff0000"
+                android:id="@+id/devopscard"
+                android:layout_width="0sp"
+                android:layout_weight="1"
+                android:layout_margin="10sp"
+                android:layout_height="100dp">
+
+            <TextView
+                    android:text="@string/devops"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:id="@+id/devopstxt"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <!--  fourth  -->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="#ffff00"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+                android:backgroundTint="#ff0000"
+                android:id="@+id/cloutplatformCard"
+                android:layout_width="0sp"
+                android:layout_weight="1"
+                android:layout_margin="10sp"
+                android:layout_height="100dp">
+
+            <TextView
+                    android:text="Cloud Platforms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:id="@+id/cloudplatformtxt"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:backgroundTint="#ff0000"
+                android:id="@+id/gitCard"
+                android:layout_width="0sp"
+                android:layout_weight="1"
+                android:layout_margin="10sp"
+                android:layout_height="100dp">
+
+            <TextView
+                    android:text="@string/git"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="60sp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:id="@+id/gittxt"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <Button
+            android:text="@string/best_resource_to_learn"
+            android:textSize="29sp"
+            android:textColor="#017E36"
+            android:backgroundTint="#FF8181"
+            android:layout_margin="10sp"
+            android:layout_width="417dp"
+            android:layout_gravity="center"
+            android:layout_height="80sp"
+            android:id="@+id/bestResourceML"/>
+
+</LinearLayout>
